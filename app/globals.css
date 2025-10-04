@@ -1,0 +1,65 @@
+@import url("@livechat/design-system-react-components/dist/style.css");
+@import url("@livechat/developer-ui-react/dist/index.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.customer-list {
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid var(--border-basic-secondary);
+  color: var(--content-basic-secondary);
+  font-weight: 400;
+}
+
+tr {
+  border-bottom: 1px solid var(--border-basic-secondary);
+}
+
+td {
+  padding: var(--spacing-2);
+}
+
+ul {
+  margin-top: 0;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homepage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: var(--surface-secondary-default);
+  border-radius: var(--radius-3);
+  padding: var(--spacing-5);
+  gap: var(--spacing-3);
+}
